@@ -1,22 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <h1><center>Booking</center></h1>
+    
     <hr>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booking</title>
+    <style>
+        .he{
+            background-color: teal;
+            color: white;
+            text-align: center;
+            
+        }
+        hr{
+            color: white;
+    ;
+        }
+        body{
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../i/5.jpg);
+            background-size: cover;
+            color: white;
+        }
+        #b{
+           background: transparent;
+           color: white; 
+           align-items: center;
+
+        }
+        input{
+            background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+            display: block;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+        a{
+            text-decoration: none;
+        }
+        #c{
+            border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+        }
+        #c:hover,
+#c:focus
+{
+    background: teal;
+    transition: 0.2s;
+}
+.e{
+    /* background-color: teal;
+    background-size:30px;
+    width: 34%;
+    border-radius: 20px; */
+    text-align: center;
+}
+    </style>
 </head>
 <body>
-    <h2>Welcome to Al-ni'ima booking </h2>
+    <header>
+        <div class="he">
+            <h1><center>Booking</center></h1>
+            <h2 class="e">Welcome to Al-ni'ima booking </h2>
+            </div>
+    </header>
+    <center>
     Card Number:
     <input type="text" id="b" placeholder="Card number">
     <br>
     your problem <textarea id="b" rows="20" cols="40" placeholder="whrite your problem here"></textarea>
     <br>
-    <marquee direction="up">Thank you for using al-niima our Dr's are replying you</marquee>
+    <marquee direction="up">Thank you for using al-niima <br>our Dr's are replying you</marquee>
     <br>
-    <a href="home.html">Next</a>
+    <a href="home.html"><button id="c">Next</button></a>
+    
+</center>
+
 </body>
 </html>
