@@ -1,0 +1,42 @@
+
+ hr{
+    color: white;
+    size: 40px;
+}
+header{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+body{
+background-color: teal;
+font-family: sans-serif;
+font-weight: lighter;
+
+}
+.ma{
+text-align: center;
+padding: 50px;
+margin: 50px;
+color:white;
+}
+a{
+text-decoration: none;
+background-color: white;
+color: teal;
+}
+.ba{
+
+text-align: left;
+
+}
+.mar{
+text-align: right;
+}
+
+#b{
+width: 40px;
+height: 40px;
+position: absolute;
+top: 50px;
+}
